@@ -13,7 +13,7 @@ class App extends React.Component {
         <header className="App-header">
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/details" element={<DetailsPage />} />
+            <Route path="/details/:imdbId" element={<DetailsPage />} />
           </Routes>
         </header>
       </div>
